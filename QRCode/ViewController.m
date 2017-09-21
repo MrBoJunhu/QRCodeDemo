@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "UIImage+QRImage.h"
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet UIImageView *QRImageView;
 
 @end
 
@@ -16,7 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+//    UIImage *image = [UIImage imageOfQRFromURL:@"http://www.jianshu.com/p/d90cd2cb41d7" codeSize:100];;
+
+//    UIImage *image = [UIImage imageOfQRFromURL:@"http://www.jianshu.com/p/d90cd2cb41d7" codesize:100 red:217 green:67 blue:72];
+    
+    UIImage *image = [UIImage imageOfQRFromURL:@"http://www.jianshu.com/p/d90cd2cb41d7" codeSize:100 insertImage:[UIImage imageNamed:@"qq"] radius:5 red:217 green:67 blue:72];
+    
+    self.QRImageView.image = image;
+    
 }
 
 

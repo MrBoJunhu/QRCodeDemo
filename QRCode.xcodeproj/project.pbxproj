@@ -15,6 +15,7 @@
 		A5A557E31F73ADCD00E46E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A557E21F73ADCD00E46E15 /* main.m */; };
 		A5A557ED1F73ADCD00E46E15 /* QRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A557EC1F73ADCD00E46E15 /* QRCodeTests.m */; };
 		A5A557F81F73ADCD00E46E15 /* QRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A557F71F73ADCD00E46E15 /* QRCodeUITests.m */; };
+		A5ACF21B1F73AF27003DB1BE /* UIImage+QRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ACF21A1F73AF27003DB1BE /* UIImage+QRImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A5A557F31F73ADCD00E46E15 /* QRCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A557F71F73ADCD00E46E15 /* QRCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeUITests.m; sourceTree = "<group>"; };
 		A5A557F91F73ADCD00E46E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5ACF2191F73AF27003DB1BE /* UIImage+QRImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRImage.h"; sourceTree = "<group>"; };
+		A5ACF21A1F73AF27003DB1BE /* UIImage+QRImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A5A557D41F73ADCD00E46E15 /* AppDelegate.m */,
 				A5A557D61F73ADCD00E46E15 /* ViewController.h */,
 				A5A557D71F73ADCD00E46E15 /* ViewController.m */,
+				A5ACF2191F73AF27003DB1BE /* UIImage+QRImage.h */,
+				A5ACF21A1F73AF27003DB1BE /* UIImage+QRImage.m */,
 				A5A557D91F73ADCD00E46E15 /* Main.storyboard */,
 				A5A557DC1F73ADCD00E46E15 /* Assets.xcassets */,
 				A5A557DE1F73ADCD00E46E15 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				A5A557D81F73ADCD00E46E15 /* ViewController.m in Sources */,
 				A5A557E31F73ADCD00E46E15 /* main.m in Sources */,
+				A5ACF21B1F73AF27003DB1BE /* UIImage+QRImage.m in Sources */,
 				A5A557D51F73ADCD00E46E15 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
