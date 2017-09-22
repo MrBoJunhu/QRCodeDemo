@@ -16,6 +16,7 @@
 		A5A557ED1F73ADCD00E46E15 /* QRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A557EC1F73ADCD00E46E15 /* QRCodeTests.m */; };
 		A5A557F81F73ADCD00E46E15 /* QRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A557F71F73ADCD00E46E15 /* QRCodeUITests.m */; };
 		A5ACF21B1F73AF27003DB1BE /* UIImage+QRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ACF21A1F73AF27003DB1BE /* UIImage+QRImage.m */; };
+		A5ACF21D1F749800003DB1BE /* whiteBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5ACF21C1F749800003DB1BE /* whiteBG@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		A5A557F91F73ADCD00E46E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5ACF2191F73AF27003DB1BE /* UIImage+QRImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRImage.h"; sourceTree = "<group>"; };
 		A5ACF21A1F73AF27003DB1BE /* UIImage+QRImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRImage.m"; sourceTree = "<group>"; };
+		A5ACF21C1F749800003DB1BE /* whiteBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "whiteBG@2x.png"; path = "../../Desktop/whiteBG@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				A5A557D71F73ADCD00E46E15 /* ViewController.m */,
 				A5ACF2191F73AF27003DB1BE /* UIImage+QRImage.h */,
 				A5ACF21A1F73AF27003DB1BE /* UIImage+QRImage.m */,
+				A5ACF21C1F749800003DB1BE /* whiteBG@2x.png */,
 				A5A557D91F73ADCD00E46E15 /* Main.storyboard */,
 				A5A557DC1F73ADCD00E46E15 /* Assets.xcassets */,
 				A5A557DE1F73ADCD00E46E15 /* LaunchScreen.storyboard */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A557E01F73ADCD00E46E15 /* LaunchScreen.storyboard in Resources */,
+				A5ACF21D1F749800003DB1BE /* whiteBG@2x.png in Resources */,
 				A5A557DD1F73ADCD00E46E15 /* Assets.xcassets in Resources */,
 				A5A557DB1F73ADCD00E46E15 /* Main.storyboard in Resources */,
 			);
