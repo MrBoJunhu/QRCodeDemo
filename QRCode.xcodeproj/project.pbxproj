@@ -17,6 +17,8 @@
 		A5A557F81F73ADCD00E46E15 /* QRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A557F71F73ADCD00E46E15 /* QRCodeUITests.m */; };
 		A5ACF21B1F73AF27003DB1BE /* UIImage+QRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ACF21A1F73AF27003DB1BE /* UIImage+QRImage.m */; };
 		A5ACF21D1F749800003DB1BE /* whiteBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5ACF21C1F749800003DB1BE /* whiteBG@2x.png */; };
+		A5ACF2201F749B40003DB1BE /* ZHScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ACF21F1F749B40003DB1BE /* ZHScanView.m */; };
+		A5ACF2231F749C08003DB1BE /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ACF2221F749C08003DB1BE /* ScanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		A5ACF2191F73AF27003DB1BE /* UIImage+QRImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRImage.h"; sourceTree = "<group>"; };
 		A5ACF21A1F73AF27003DB1BE /* UIImage+QRImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRImage.m"; sourceTree = "<group>"; };
 		A5ACF21C1F749800003DB1BE /* whiteBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "whiteBG@2x.png"; path = "../../Desktop/whiteBG@2x.png"; sourceTree = "<group>"; };
+		A5ACF21E1F749B3F003DB1BE /* ZHScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHScanView.h; path = ../../Desktop/ZHScanView.h; sourceTree = "<group>"; };
+		A5ACF21F1F749B40003DB1BE /* ZHScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHScanView.m; path = ../../Desktop/ZHScanView.m; sourceTree = "<group>"; };
+		A5ACF2211F749C08003DB1BE /* ScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		A5ACF2221F749C08003DB1BE /* ScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +116,12 @@
 				A5A557D41F73ADCD00E46E15 /* AppDelegate.m */,
 				A5A557D61F73ADCD00E46E15 /* ViewController.h */,
 				A5A557D71F73ADCD00E46E15 /* ViewController.m */,
+				A5ACF2211F749C08003DB1BE /* ScanViewController.h */,
+				A5ACF2221F749C08003DB1BE /* ScanViewController.m */,
 				A5ACF2191F73AF27003DB1BE /* UIImage+QRImage.h */,
 				A5ACF21A1F73AF27003DB1BE /* UIImage+QRImage.m */,
+				A5ACF21E1F749B3F003DB1BE /* ZHScanView.h */,
+				A5ACF21F1F749B40003DB1BE /* ZHScanView.m */,
 				A5ACF21C1F749800003DB1BE /* whiteBG@2x.png */,
 				A5A557D91F73ADCD00E46E15 /* Main.storyboard */,
 				A5A557DC1F73ADCD00E46E15 /* Assets.xcassets */,
@@ -216,7 +226,7 @@
 					};
 					A5A557F21F73ADCD00E46E15 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = A5A557CF1F73ADCD00E46E15;
 					};
 				};
@@ -274,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5ACF2201F749B40003DB1BE /* ZHScanView.m in Sources */,
+				A5ACF2231F749C08003DB1BE /* ScanViewController.m in Sources */,
 				A5A557D81F73ADCD00E46E15 /* ViewController.m in Sources */,
 				A5A557E31F73ADCD00E46E15 /* main.m in Sources */,
 				A5ACF21B1F73AF27003DB1BE /* UIImage+QRImage.m in Sources */,
@@ -442,8 +454,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MGD3VP4N9L;
 				INFOPLIST_FILE = QRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bill.QRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,8 +471,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MGD3VP4N9L;
 				INFOPLIST_FILE = QRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bill.QRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,12 +515,13 @@
 		A5A558031F73ADCD00E46E15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F8GY9XXT4N;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QRCodeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bill.QRCodeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = QRCode;
 			};
@@ -515,12 +530,13 @@
 		A5A558041F73ADCD00E46E15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F8GY9XXT4N;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QRCodeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bill.QRCodeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = QRCode;
 			};

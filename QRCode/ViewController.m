@@ -12,6 +12,7 @@
 
 @property (strong, nonatomic) IBOutlet UIImageView *QRImageView;
 
+
 @end
 
 @implementation ViewController
